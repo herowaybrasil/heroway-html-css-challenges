@@ -3,12 +3,20 @@ body, html {
   height: 100%;
 }
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Barlow Condensed';
 }
+
+.btn {
+  border-radius: 0;
+  transform: skew(-10deg, 0);
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 .content-section {
+  color: #fff;
+  background-color: #121212;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
